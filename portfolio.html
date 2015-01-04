@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <title>Portfolio - Juho Tikkanen</title>
+        
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="Juho's Portfolio">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" >
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"></script>
+        
+    </head>
+    <body>
+        
+        <header>
+            <script id="profile-template" type="text/x-handlebars-template">
+                <img class="profile-picture" src="{{user.images.[138]}}" alt="Behance profile picture of {{user.display_name}}">
+                <h1>{{user.display_name}}</h1>
+                <ul class="creative-field-list">
+                    {{#each user.fields}}
+                        <li class="creative-field-item">{{this}}</li>
+                    {{/each}}
+                </ul>
+                <span class="profile-location"><i class="fa fa-map-marker"></i> {{user.city}}, {{user.country}}</span>
+            </script>
+        </header>
+        
+        <div id="portfolio" class="portfolio-area">
+            <script id="portfolio-template" type="text/x-handlebars-template">
+                {{#each projects}}
+                    <figure class="portfolio-item" title="{{this.name}}" data-project-id="{{this.id}}">
+                        {{#if this.covers.[404]}}
+                        <img class="portfolio-image" src="{{this.covers.[404]}}" alt="{{this.name}}">
+                        {{else}}
+                            {{#if this.covers.[230]}}
+                            <img class="portfolio-image" src="{{this.covers.[230]}}" alt="{{this.name}}">
+                            {{else}}
+                            <img class="portfolio-image" src="{{this.covers.[202]}}" alt="{{this.name}}">
+                            {{/if}}
+                        {{/if}}
+                        <figcaption>
+                            <h2>{{this.name}}</h2>
+                            <ul class="creative-field-list">
+                            {{#each this.fields}}
+                                <li class="creative-field-item">{{this}}</li>
+                            {{/each}}
+                            </ul>
+                        </figcaption>
+                    </figure>
+                {{/each}}
+            </script>
+        </div>
+        
+        <footer>
+            <small><a href="https://www.behance.net/">Powered by Behance</a></small>
+        </footer>
+        
+        <script>
+            $(document).ready(function () {
+
+                    var apiKey = 'oTDRtfQleT3MlCrMqMP6Fgtt9DtKS2wf';
+                    var userID = 'JuhoTikkanen';
+
+                    (function () {
+                        var behanceUserAPI = 'http://www.behance.net/v2/users/' + userID + '?callback=?&api_key=' + apiKey;
+
+                        function setUserTemplate() {
+                            var userData = JSON.parse(sessionStorage.getItem('behanceUser')),
+                                getTemplate = $('#profile-template').html(),
+                                template = Handlebars.compile(getTemplate),
+                                result = template(userData);
+                            $('header').html(result);
+                        }
+
+                        if (sessionStorage.getItem('behanceUser')) {
+                            setUserTemplate();
+                        } else {
+                            $.getJSON(behanceUserAPI, function (user) {
+                                var data = JSON.stringify(user);
+                                sessionStorage.setItem('behanceUser', data);
+                                setUserTemplate();
+                            });
+                        }
+                    })();
+                    (function () {
+                        var perPage = 12;
+                        var behanceProjectAPI = 'http://www.behance.net/v2/users/' + userID + '/projects?callback=?&api_key=' + apiKey + '&per_page=' + perPage;
+
+                        function setPortfolioTemplate() {
+                            var projectData = JSON.parse(sessionStorage.getItem('behanceProject')),
+                                getTemplate = $('#portfolio-template').html(),
+                                template = Handlebars.compile(getTemplate),
+                                result = template(projectData);
+                            $('#portfolio').html(result);
+                        }
+
+                        if (sessionStorage.getItem('behanceProject')) {
+                            setPortfolioTemplate();
+                        } else {
+                            $.getJSON(behanceProjectAPI, function (project) {
+                                var data = JSON.stringify(project);
+                                sessionStorage.setItem('behanceProject', data);
+                                setPortfolioTemplate();
+                            });
+                        }
+                    })();
+
+                });
+        </script>
+        
+    </body>
+</html>
