@@ -1,0 +1,78 @@
+html {
+    background: #fff;
+    color: #252525;
+    font-family: sans-serif;
+    line-height: 1.382;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased
+}
+body {
+    margin: 1em
+}
+header, footer {
+    padding: 1em;
+    text-align: center
+}
+.profile-picture {
+    height: 69px;
+    border-radius: 50%
+}
+h2, a {
+    color: #616161
+}
+ul {
+    margin: 0
+}
+li {
+    margin: .382em 0
+}
+
+/* portfolio */
+.creative-field-list {
+    padding: 0
+}
+.creative-field-item {
+    display: inline-block;
+    margin: 0
+}
+.creative-field-item:after {
+    content: ', '
+}
+.creative-field-item:last-child:after {
+    content: ''
+}
+.profile-location {
+    display: block;
+    margin: 1em 0 0
+}
+.portfolio-area {
+    text-align: center
+}
+.portfolio-item {
+    display: inline-block;
+    margin: 1em;
+    max-width: 202px;
+    vertical-align: top
+}
+.portfolio-image {
+    max-width: 100%
+}
+
+/* Font Awesome */
+.fa-ul {
+    margin-left: 1.74285714em
+}
+    /* Hypem */
+    .fa-comment-o {
+        font-size: 1em
+    }
+    .fa-heart {
+        font-size: 6px;
+        line-height: 2.75em
+    }
+    .fa-stack {
+        height: 1em;
+        margin-right: -2.14285714em;
+        top: -.14285714em;
+        width: 2.14285714em
+    }
