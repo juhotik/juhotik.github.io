@@ -13,10 +13,7 @@ header, footer {
     padding: 1em;
     text-align: center
 }
-.profile-picture {
-    border-radius: 50%
-}
-h2, a {
+a {
     color: #616161
 }
 ul {
@@ -24,6 +21,9 @@ ul {
 }
 li {
     margin: .382em 0
+}
+.profile-picture {
+    border-radius: 50%
 }
 
 /* portfolio */
@@ -62,16 +62,16 @@ li {
     margin-left: 1.74285714em
 }
     /* Hypem */
+    .fa-stack {
+        height: 1em;
+        margin-right: -2.14285714em;
+        top: -.14285714em;
+        width: 2.14285714em
+    }
     .fa-comment-o {
         font-size: 1em
     }
     .fa-heart {
         font-size: 6px;
         line-height: 2.75em
-    }
-    .fa-stack {
-        height: 1em;
-        margin-right: -2.14285714em;
-        top: -.14285714em;
-        width: 2.14285714em
     }
