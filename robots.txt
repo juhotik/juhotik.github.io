@@ -1,5 +1,8 @@
 User-agent: *
-Disallow: /images/
-Disallow: /icons/
+Disallow: /icn/
+Disallow: /doc/
 Disallow: /css/
+Disallow: /img/
 Disallow: /js/
+
+Sitemap: http://www.juhotik.com/sitemap.xml
