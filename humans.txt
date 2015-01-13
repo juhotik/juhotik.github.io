@@ -1,7 +1,7 @@
 /* TEAM */
 Author: Juho Tikkanen
 Twitter: @JuhoTik
-Site: http://juhotik.com
+Site: http://juhotik.com/
 Location: Jyväskylä, Finland
 
 /* SITE */
