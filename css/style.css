@@ -87,16 +87,19 @@ li {
 .angellist:before {
 	content: "\e601";
     font-family: 'icomoon';
+    text-decoration: none;
 }
 
 .behance:before {
 	content: "\e602";
     font-family: 'icomoon';
+    text-decoration: none;
 }
 
 .book:before {
 	content: "\e603";
     font-family: 'icomoon';
+    text-decoration: none;
 }
 
 .education:before {
