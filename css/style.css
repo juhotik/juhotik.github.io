@@ -20,11 +20,11 @@ a {
 }
 ul {
     list-style-type: none;
-    padding: 0 1.25em;
-    text-indent: -1.25em;
+    padding: 0 1em;
+    text-indent: -1em;
 }
 ul ul {
-    padding: 0 1.25em;
+    padding: 0 1em;
 }
 li {
     margin: .382em 0
