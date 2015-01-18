@@ -48,7 +48,9 @@ li {
     margin: 1em 0 0
 }
 .portfolio-area {
-    text-align: center
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .portfolio-item {
     background: #f6f6f6;
