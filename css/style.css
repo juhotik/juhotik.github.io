@@ -40,11 +40,8 @@ li {
     display: inline-block;
     margin: 0
 }
-.creative-field-item:after {
+.creative-field-item:not(:last-child):after {
     content: ', '
-}
-.creative-field-item:last-child:after {
-    content: ''
 }
 .profile-location {
     display: block;
