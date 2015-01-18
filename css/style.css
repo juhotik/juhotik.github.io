@@ -57,21 +57,9 @@ li {
     max-width: 100%
 }
 
-/* Font Awesome */
-.fa-ul {
-    margin-left: 1.74285714em
+/* icons */
+.icon-runkeeper, .icon-angellist, .icon-behance, .icon-book, .icon-education, .icon-email, .icon-facebook, .icon-foursquare, .icon-github, .icon-googleplus, .icon-home, .icon-hypem, .icon-instagram, .icon-jsfiddle, .icon-linkedin, .icon-mapmarker, .icon-pdf, .icon-soundcloud, .icon-twitter, .icon-work {
+    fill: currentColor;
+    height: 1em;
+    width: 1em;
 }
-    /* Hypem */
-    .fa-stack {
-        height: 1em;
-        margin-right: -2.14285714em;
-        top: -.14285714em;
-        width: 2.14285714em
-    }
-    .fa-comment-o {
-        font-size: 1em
-    }
-    .fa-heart {
-        font-size: 6px;
-        line-height: 2.75em
-    }
