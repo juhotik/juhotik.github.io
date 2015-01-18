@@ -24,9 +24,6 @@ ul {
     padding: 0 1.5em;
     text-indent: -1.5em;
 }
-ul ul {
-    padding: 0 1.5em;
-}
 li {
     margin: .382em 0
 }
@@ -82,6 +79,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-behance:before {
@@ -89,6 +87,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-book:before {
@@ -96,6 +95,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-education:before {
@@ -103,6 +103,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-email:before {
@@ -110,6 +111,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-facebook:before {
@@ -117,6 +119,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-foursquare:before {
@@ -124,6 +127,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-github:before {
@@ -131,6 +135,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-googleplus:before {
@@ -138,6 +143,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-website:before {
@@ -145,6 +151,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-hypem:before {
@@ -152,6 +159,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-instagram:before {
@@ -159,6 +167,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-jsfiddle:before {
@@ -166,6 +175,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-linkedin:before {
@@ -173,6 +183,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-mapmarker:before {
@@ -180,6 +191,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-pdf:before {
@@ -187,6 +199,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-runkeeper:before {
@@ -194,6 +207,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-soundcloud:before {
@@ -201,6 +215,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-twitter:before {
@@ -208,6 +223,7 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
 
 .icon-work:before {
@@ -215,4 +231,5 @@ li {
     font-family: 'icomoon';
     text-decoration: none;
     margin-right: .5em;
+    width: 1em;
 }
