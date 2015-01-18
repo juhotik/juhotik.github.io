@@ -2,7 +2,6 @@ html {
     background: #fff;
     color: #252525;
     font-family: sans-serif;
-    font-weight: 200;
     line-height: 1.382;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -52,14 +51,15 @@ li {
     text-align: center
 }
 .portfolio-item {
-    display: inline-block;
-    margin: 1em;
+    background: #f6f6f6;
+    margin: .1em;
     max-width: 202px;
-    transition: color 0.15s ease;
-    vertical-align: top
+    padding: 1em;
+    text-align: center;
+    transition: background 0.15s ease;
 }
 .portfolio-item:hover {
-    color: #616161
+    color: #fff
 }
 .portfolio-image {
     max-width: 100%
