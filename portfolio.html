@@ -32,16 +32,9 @@
     <body>
         
         <header>
-            <script id="profile-template" type="text/x-handlebars-template">
-                <img class="profile-picture" width="69" height="69" src="{{user.images.[138]}}" alt="Behance profile picture of {{user.display_name}}">
-                <h1>{{user.display_name}}</h1>
-                <ul class="creative-field-list">
-                    {{#each user.fields}}
-                        <li class="creative-field-item">{{this}}</li>
-                    {{/each}}
-                </ul>
-                <span class="profile-location"><i class="fa fa-map-marker"></i> {{user.city}}, {{user.country}}</span>
-            </script>
+            <img class="profile-picture" width="90" height="90" itemprop="image" property="image" src="http://juhotik.com/img/juho.jpg" alt="Photo of Juho Tikkanen">
+            <h1>Juho Tikkanen</h1>
+            Graphic Designer and Web Developer. Marketing Specialist at Icebug FI. Loves problem-solving, simplicity and giving my best shots. Tech &amp; techno lover.
         </header>
         
         <div id="portfolio" class="portfolio-area">
@@ -76,55 +69,34 @@
         
         <script>
             $(document).ready(function () {
-
-                    var apiKey = 'oTDRtfQleT3MlCrMqMP6Fgtt9DtKS2wf';
-                    var userID = 'JuhoTikkanen';
-
-                    (function () {
-                        var behanceUserAPI = 'http://www.behance.net/v2/users/' + userID + '?callback=?&api_key=' + apiKey;
-
-                        function setUserTemplate() {
-                            var userData = JSON.parse(sessionStorage.getItem('behanceUser')),
-                                getTemplate = $('#profile-template').html(),
-                                template = Handlebars.compile(getTemplate),
-                                result = template(userData);
-                            $('header').html(result);
-                        }
-
-                        if (sessionStorage.getItem('behanceUser')) {
-                            setUserTemplate();
-                        } else {
-                            $.getJSON(behanceUserAPI, function (user) {
-                                var data = JSON.stringify(user);
-                                sessionStorage.setItem('behanceUser', data);
-                                setUserTemplate();
-                            });
-                        }
-                    })();
-                    (function () {
-                        var perPage = 12;
-                        var behanceProjectAPI = 'http://www.behance.net/v2/users/' + userID + '/projects?callback=?&api_key=' + apiKey + '&per_page=' + perPage;
-
-                        function setPortfolioTemplate() {
-                            var projectData = JSON.parse(sessionStorage.getItem('behanceProject')),
-                                getTemplate = $('#portfolio-template').html(),
-                                template = Handlebars.compile(getTemplate),
-                                result = template(projectData);
-                            $('#portfolio').html(result);
-                        }
-
-                        if (sessionStorage.getItem('behanceProject')) {
+                
+                var apiKey = 'oTDRtfQleT3MlCrMqMP6Fgtt9DtKS2wf';
+                var userID = 'JuhoTikkanen';
+                
+                (function () {
+                    var perPage = 12;
+                    var behanceProjectAPI = 'http://www.behance.net/v2/users/' + userID + '/projects?callback=?&api_key=' + apiKey + '&per_page=' + perPage;
+                    
+                    function setPortfolioTemplate() {
+                        var projectData = JSON.parse(sessionStorage.getItem('behanceProject')),
+                            getTemplate = $('#portfolio-template').html(),
+                            template = Handlebars.compile(getTemplate),
+                            result = template(projectData);
+                        $('#portfolio').html(result);
+                    }
+                    
+                    if (sessionStorage.getItem('behanceProject')) {
+                        setPortfolioTemplate();
+                    } else {
+                        $.getJSON(behanceProjectAPI, function (project) {
+                            var data = JSON.stringify(project);
+                            sessionStorage.setItem('behanceProject', data);
                             setPortfolioTemplate();
-                        } else {
-                            $.getJSON(behanceProjectAPI, function (project) {
-                                var data = JSON.stringify(project);
-                                sessionStorage.setItem('behanceProject', data);
-                                setPortfolioTemplate();
-                            });
-                        }
-                    })();
-
-                });
+                        });
+                    }
+                })();
+                
+            });
         </script>
         
     </body>
