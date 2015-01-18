@@ -161,3 +161,11 @@ li {
     font-family: 'icomoon';
     margin-right: .5em;
 }
+span.icon-work {
+    content: "\e613";
+    font-family: 'icomoon';
+    margin-right: .5em;
+    width: 1em;
+    height: 1em;
+    background: red;
+}
