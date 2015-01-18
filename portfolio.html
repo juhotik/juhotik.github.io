@@ -41,12 +41,12 @@
                 {{#each projects}}
                     <figure class="portfolio-item" title="{{this.name}}" data-project-id="{{this.id}}">
                         {{#if this.covers.[404]}}
-                        <a href="{{this.link}}"><img class="portfolio-image" src="{{this.covers.[404]}}" alt="{{this.name}}"></a>
+                        <a href="{{this.url}}"><img class="portfolio-image" src="{{this.covers.[404]}}" alt="{{this.name}}"></a>
                         {{else}}
                             {{#if this.covers.[230]}}
-                            <a href="{{this.link}}"><img class="portfolio-image" src="{{this.covers.[230]}}" alt="{{this.name}}"></a>
+                            <a href="{{this.url}}"><img class="portfolio-image" src="{{this.covers.[230]}}" alt="{{this.name}}"></a>
                             {{else}}
-                            <a href="{{this.link}}"><img class="portfolio-image" src="{{this.covers.[202]}}" alt="{{this.name}}"></a>
+                            <a href="{{this.url}}"><img class="portfolio-image" src="{{this.covers.[202]}}" alt="{{this.name}}"></a>
                             {{/if}}
                         {{/if}}
                         <figcaption>
