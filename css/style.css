@@ -73,163 +73,103 @@ li {
     font-weight: normal;
     font-style: normal;
 }
-
 .icon-angellist:before {
     content: "\e601";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-behance:before {
     content: "\e602";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-book:before {
     content: "\e603";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-education:before {
     content: "\e604";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-email:before {
     content: "\e605";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-facebook:before {
     content: "\e606";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-foursquare:before {
     content: "\e607";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-github:before {
     content: "\e608";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-googleplus:before {
     content: "\e609";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-website:before {
     content: "\e60a";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-hypem:before {
     content: "\e60b";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-instagram:before {
     content: "\e60c";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-jsfiddle:before {
     content: "\e60d";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-linkedin:before {
     content: "\e60e";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-mapmarker:before {
     content: "\e60f";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-pdf:before {
     content: "\e610";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-runkeeper:before {
     content: "\e600";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-soundcloud:before {
     content: "\e611";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-twitter:before {
     content: "\e612";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
-
 .icon-work:before {
     content: "\e613";
     font-family: 'icomoon';
-    text-decoration: none;
     margin-right: .5em;
-    width: 1em;
 }
