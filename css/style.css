@@ -63,6 +63,10 @@ li {
     -webkit-justify-content: center;
     justify-content: center;
 }
+.portfolio-area a {
+    display: flex;
+    text-decoration: none;
+}
 .portfolio-item {
     background: #f6f6f6;
     margin: .1em;
