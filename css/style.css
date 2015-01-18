@@ -80,18 +80,21 @@ li {
     content: "\e601";
     font-family: 'icomoon';
     text-decoration: none;
+    margin-right: .5em;
 }
 
 .icon-behance:before {
     content: "\e602";
     font-family: 'icomoon';
     text-decoration: none;
+    margin-right: .5em;
 }
 
 .icon-book:before {
     content: "\e603";
     font-family: 'icomoon';
     text-decoration: none;
+    margin-right: .5em;
 }
 
 .icon-education:before {
@@ -136,7 +139,7 @@ li {
     margin-right: .5em;
 }
 
-.icon-home:before {
+.icon-website:before {
     content: "\e60a";
     font-family: 'icomoon';
     text-decoration: none;
