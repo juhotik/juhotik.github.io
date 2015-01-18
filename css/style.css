@@ -58,10 +58,6 @@ li {
     max-width: 202px;
     padding: 1em;
     text-align: center;
-    transition: background 0.15s ease;
-}
-.portfolio-item:hover {
-    color: #fff
 }
 .portfolio-image {
     max-width: 100%
