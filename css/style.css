@@ -50,8 +50,8 @@ li {
 .portfolio-area {
     display: flex;
     flex-wrap: wrap;
+    -webkit-justify-content: center;
     justify-content: center;
-    align-content: center;
 }
 .portfolio-item {
     background: #f6f6f6;
