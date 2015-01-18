@@ -54,8 +54,9 @@ li {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    
     -webkit-box-pack: center;
     -moz-box-pack: center;
     -ms-flex-pack: center;
