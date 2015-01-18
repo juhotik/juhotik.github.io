@@ -51,6 +51,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
 }
 .portfolio-item {
     background: #f6f6f6;
