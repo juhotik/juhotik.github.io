@@ -39,7 +39,8 @@
         <div id="portfolio" class="portfolio-area">
             <script id="portfolio-template" type="text/x-handlebars-template">
                 {{#each projects}}
-                    <a href="{{this.url}}"><figure class="portfolio-item" title="{{this.name}}" data-project-id="{{this.id}}">
+                    <figure class="portfolio-item" title="{{this.name}}" data-project-id="{{this.id}}">
+                        <a href="{{this.url}}">
                         {{#if this.covers.[404]}}
                         <img class="portfolio-image" src="{{this.covers.[404]}}" alt="{{this.name}}">
                         {{else}}
@@ -57,7 +58,7 @@
                             {{/each}}
                             </ul>
                         </figcaption>
-                    </figure></a>
+                    </a></figure>
                 {{/each}}
             </script>
         </div>
