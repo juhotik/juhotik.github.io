@@ -48,10 +48,10 @@ li {
     margin: 1em 0 0
 }
 .portfolio-area {
-    display: -webkit-flex;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 
     -webkit-justify-content: center;
@@ -65,10 +65,10 @@ li {
     flex-wrap: wrap;
 }
 .portfolio-area a {
-    display: -webkit-flex;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     text-decoration: none;
 }
