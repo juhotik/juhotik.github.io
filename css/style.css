@@ -65,6 +65,11 @@ li {
     flex-wrap: wrap;
 }
 .portfolio-area a {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
     text-decoration: none;
 }
 .portfolio-item {
