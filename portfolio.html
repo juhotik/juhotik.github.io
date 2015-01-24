@@ -39,25 +39,27 @@
         <div id="portfolio" class="portfolio-area">
             <script id="portfolio-template" type="text/x-handlebars-template">
                 {{#each projects}}
-                    <a href="{{this.url}}"><figure class="portfolio-item" title="{{this.name}}" data-project-id="{{this.id}}">
+                <a href="{{this.url}}">
+                    <figure class="portfolio-item" title="{{this.name}}" data-project-id="{{this.id}}">
                         {{#if this.covers.[404]}}
                         <img class="portfolio-image" src="{{this.covers.[404]}}" alt="{{this.name}}">
                         {{else}}
-                            {{#if this.covers.[230]}}
-                            <img class="portfolio-image" src="{{this.covers.[230]}}" alt="{{this.name}}">
-                            {{else}}
-                            <img class="portfolio-image" src="{{this.covers.[202]}}" alt="{{this.name}}">
-                            {{/if}}
+                        {{#if this.covers.[230]}}
+                        <img class="portfolio-image" src="{{this.covers.[230]}}" alt="{{this.name}}">
+                        {{else}}
+                        <img class="portfolio-image" src="{{this.covers.[202]}}" alt="{{this.name}}">
+                        {{/if}}
                         {{/if}}
                         <figcaption>
                             <h2>{{this.name}}</h2>
                             <ul class="creative-field-list">
-                            {{#each this.fields}}
+                                {{#each this.fields}}
                                 <li class="creative-field-item">{{this}}</li>
-                            {{/each}}
+                                {{/each}}
                             </ul>
                         </figcaption>
-                    </figure></a>
+                    </figure>
+                </a>
                 {{/each}}
             </script>
         </div>
