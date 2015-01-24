@@ -62,7 +62,7 @@ li {
 .portfolio-item {
     background: #f6f6f6;
     margin: .5em; /* .0625em = 1px */
-    max-width: 202px;
+    max-width: 12.625em; /* = 202px */
     padding: 1em;
     text-align: center;
 }
