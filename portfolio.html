@@ -31,7 +31,7 @@
     <body>
         
         <header>
-            <img class="profile-picture" width="90" height="90" src="img/juho.jpg" alt="Photo of Juho Tikkanen">
+            <img class="profile-picture" src="img/juho.jpg" alt="Photo of Juho Tikkanen" width="90" height="90">
             <h1>Juho Tikkanen</h1>
             <p>Marketing Specialist at Icebug and PowerBar Finland. Graphic Designer and Web Developer. Loves problem-solving, simplicity and giving the best shots. Tech &amp; techno lover.</p>
         </header>
@@ -40,7 +40,7 @@
             <script id="portfolio-template" type="text/x-handlebars-template">
                 {{#each projects}}
                 <a href="{{this.url}}">
-                    <figure class="portfolio-item" title="{{this.name}}" data-project-id="{{this.id}}">
+                    <figure class="portfolio-item" data-project-id="{{this.id}}">
                         {{#if this.covers.[404]}}
                         <img class="portfolio-image" src="{{this.covers.[404]}}" alt="{{this.name}}">
                         {{else}}
