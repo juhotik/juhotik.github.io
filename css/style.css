@@ -55,7 +55,7 @@ li {
 .profiles > li {
     -webkit-flex-basis: 8em;
     flex-basis: 7em;
-    margin: .21875em 1em .21875em 0;
+    margin: .21875em .5em .21875em 0;
 }
 .profile-picture {
     border-radius: 50%
