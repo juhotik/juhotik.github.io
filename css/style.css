@@ -19,7 +19,7 @@ section {
     padding: 9%
 }
 section:nth-child(even) {
-    background: #dadada
+    background: #e8e8e8
 }
 footer {
     padding: 2em 9%;
