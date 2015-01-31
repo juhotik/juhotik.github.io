@@ -2,7 +2,6 @@ html {
     background: #fff;
     color: #252525;
     font-family: sans-serif;
-    font-size: 112.5%;
     line-height: 1.382;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -20,7 +19,7 @@ section {
     padding: 9%
 }
 section:nth-child(even) {
-    background: #f6f6f6
+    background: #dadada
 }
 footer {
     padding: 2em 9%;
