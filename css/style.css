@@ -67,6 +67,7 @@ dt {
     font-weight: bold;
 }
 dd {
+    display: list-item;
     margin: .8125em 1.5em;
 }
 .flex-container {
