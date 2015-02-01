@@ -70,7 +70,7 @@ dd {
 
 /* portfolio */
 .portfolio-area {
-    padding: calc(9% - .5em);
+    padding: 1em;
     -webkit-justify-content: center;
     -webkit-box-pack: center;
     -moz-box-pack: center;
