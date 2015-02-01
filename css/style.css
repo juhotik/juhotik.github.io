@@ -44,8 +44,8 @@ dd {
 .profile-picture { border-radius: 50% }
 
 .icon {
-    background-size: 1em;
     background-repeat: no-repeat;
+    background-size: 1.5em;
     display: block;
     line-height: 1.5em;
     padding-left: 2em
