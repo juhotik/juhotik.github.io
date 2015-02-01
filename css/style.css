@@ -7,6 +7,9 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 body { margin: 0 }
 blockquote { margin: 0 3em }
@@ -36,7 +39,6 @@ dt { font-weight: bold }
 dd {
     display: list-item;
      margin: .382em 1.5em }
-}
 
 .profile-picture { border-radius: 50% }
 
