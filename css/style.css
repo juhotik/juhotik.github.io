@@ -77,7 +77,7 @@ dd {
     -ms-flex-pack: center;
     justify-content: center
 }
-.portfolio-area a {
+.portfolio-area > a {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -94,7 +94,7 @@ dd {
 }
 .portfolio-image { max-width: 100% }
 .creative-field-list { padding: 0 }
-.creative-field-item {
+.creative-field-list > li {
     display: inline-block;
     margin: 0
 }
