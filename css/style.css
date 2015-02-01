@@ -53,8 +53,8 @@ li {
     text-indent: 0;
 }
 .profiles > li {
-    -webkit-flex-basis: 8em;
-    flex-basis: 5em;
+    -webkit-flex-basis: 7em;
+    flex-basis: 7em;
     margin: .21875em .5em .21875em 0;
 }
 .profile-picture {
