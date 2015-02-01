@@ -1,6 +1,7 @@
 html {
     background: #fff;
     color: #252525;
+    font-family: sans-serif;
     line-height: 1.382;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -67,7 +68,7 @@ dt {
 }
 dd {
     display: list-item;
-    margin: .8125em 1.5em;
+    margin: .382em 1.5em;
 }
 .flex-container {
     display: -webkit-box;
