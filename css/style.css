@@ -58,7 +58,7 @@ dd {
     margin: 0 1em 2em 0
 }
 
-.flex-container, .profiles, .portfolio-area {
+.flex-container, .profiles, .portfolio-area, .portfolio-area > a {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
