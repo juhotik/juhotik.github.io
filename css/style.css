@@ -70,7 +70,7 @@ dd {
 
 /* portfolio */
 .portfolio-area {
-    padding: .5em;
+    padding: calc(9% - .5em);
     -webkit-justify-content: center;
     -webkit-box-pack: center;
     -moz-box-pack: center;
@@ -89,10 +89,11 @@ dd {
     background: #f6f6f6;
     margin: .5em; /* .0625em = 1px */
     max-width: 12.625em;
-    padding: 1em;
+    padding: 1.5em;
     text-align: center
 }
 .portfolio-image { max-width: 100% }
+.creative-filed-list { padding: 0 }
 .creative-field-item {
     display: inline-block;
     margin: 0
