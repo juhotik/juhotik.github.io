@@ -1,12 +1,9 @@
 juhotik.com
 ===========
 
-
-
-This is my personal webiste for testing and learning purposes.
+My personal webiste for testing and learning purposes.
 
 [Visit juhotik.com](http://juhotik.com)
-
 
 - HTML5
 - CSS3
