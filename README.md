@@ -2,6 +2,9 @@ juhotik.github.io
 =================
 
 #My personal website
+
+This is my personal webiste for testing and learning purposes.
+
 [Visit juhotik.com](http://juhotik.com)
 
 
