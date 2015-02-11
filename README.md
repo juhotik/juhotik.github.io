@@ -8,5 +8,5 @@ juhotik.github.io
 - HTML5
 - CSS3
 - Fluid layout
-- "Retina" ready
+- Svg-icons and high-resolution images
 - Support for [microformats](http://wikipedia.org/wiki/Microformat)
