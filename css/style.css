@@ -21,7 +21,7 @@ footer {
 }
 
 section { padding: 9% }
-section:nth-child(even) { background: #e8e8e8 }
+section:nth-child(even) { background: #f6f6f6 }
 
 ul {
     list-style-type: none;
