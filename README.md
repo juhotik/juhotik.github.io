@@ -1,7 +1,7 @@
-juhotik.github.io
-=================
+My personal website
+===================
 
-#My personal website
+
 
 This is my personal webiste for testing and learning purposes.
 
