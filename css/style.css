@@ -1,7 +1,7 @@
 html {
     background: #fff;
     color: #252525;
-    font-family: 'Georgia';
+    font-family: Georgia, serif;
     line-height: 1.382;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -9,6 +9,7 @@ html {
 }
 body { margin: 0 }
 h1 {
+    font-family: Times, serif;
     font-size: 13vw;
     letter-spacing: -0.20vw;
 }
