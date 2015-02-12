@@ -8,6 +8,7 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 body { margin: 0 }
+h1 { font-family: 'Playfair Display', 'Georgia', serif }
 blockquote { margin: 0 1.5em }
 a { color: #616161 }
 
