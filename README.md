@@ -1,7 +1,7 @@
 juhotik.com
 ===========
 
-My personal webiste for testing and learning purposes.
+My personal webiste.
 
 [Visit juhotik.com](http://juhotik.com)
 
